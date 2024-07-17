@@ -1,0 +1,55 @@
+/* mobile device responsive layout */
+
+@media  screen and (max-width: 576px) {
+    .navbar{
+        padding: 0 10px;
+    }
+    .navbar-area{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .explore-form{
+        flex-direction: column;
+        margin: 1rem;
+    }
+    input, select{
+        width: 100%;
+        margin: 0.6rem 0.5rem;
+    }
+    .popular-area{
+        flex-direction: column;
+    }
+    .popular-img img{
+        width: 100%;
+    }
+    .destination-card, .destination-card2, .destination-card3{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .navbar{
+        padding: 0 10px;
+    }
+    .navbar-area{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .explore-form{
+        flex-direction: column;
+        margin: 1rem;
+    }
+    input, select{
+        width: 100%;
+        margin: 0.6rem 0.5rem;
+    }
+    .popular-area{
+        flex-direction: column;
+    }
+    .popular-img img{
+        width: 100%;
+    }
+}
